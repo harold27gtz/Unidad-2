@@ -1,0 +1,65 @@
+body{
+    background:url(fondo5.gif);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+    height: auto;
+    width: auto;
+}
+
+p{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.peso:hover{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    border-radius: 10%;
+    border: 5px rgba(0, 0, 255, 0.527);
+    box-shadow: 6px 5px 0px rgba(255, 0, 0, 0);
+
+}
+
+.peso{
+    height: auto;
+    width: auto;
+}
+
+.pesos:hover{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    border-radius: 10%;
+    border: 5px rgba(21, 255, 0, 0.527);
+    box-shadow: 6px 5px 0px rgba(255, 0, 0, 0);
+
+}
+
+.pesos{
+    height: auto;
+    width: auto;
+    position: relative;
+    
+}
+
+.pesO:hover{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    border-radius: 10%;
+    border: 5px rgba(183, 0, 255, 0.623);
+    box-shadow: 6px 5px 0px rgba(255, 0, 0, 0);
+}
+
+.pesO{
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.Komander{
+    position: relative;
+    right: 100px;
+}

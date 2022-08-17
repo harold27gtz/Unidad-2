@@ -1,0 +1,49 @@
+body {
+    background:url(Sala-estarD.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center center;
+    }
+
+header{
+padding: 10px;
+color: #000;
+}
+
+.h1{
+    color: aqua;
+}
+
+.opciones{
+    text-align: center;
+    margin: 50px;
+}
+
+.izquierda{
+    width: 90px;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+
+.izquierda:hover{
+    background-color: rgb(104, 190, 104);
+    cursor: pointer;
+    border-radius: 30%;
+    border: 5px solid rgb(61, 61, 61);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.527);
+}
+
+p{
+    font-size: 30px;
+    color: rgb(11, 255, 235);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Images{
+    border-radius: 30px;
+    border: 10px solid rgb(61, 61, 61);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.527);
+}

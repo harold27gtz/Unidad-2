@@ -1,0 +1,87 @@
+body {
+    background:url(dormitorioD.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center center;
+    }
+        header{
+        padding: 10px;
+        color: #000;
+        }
+
+        .opciones{
+            text-align: center;
+            margin: 50px;
+        }
+
+        .izquierda{
+            width: 90px;
+            display: inline-block;
+            padding: 15px;
+            margin: 20px;
+        }
+        
+        .izquierda:hover{
+            background-color: rgb(104, 190, 104);
+            cursor: pointer;
+            border-radius: 30%;
+            border: 5px solid rgb(61, 61, 61);
+            box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.295);
+        }
+
+        :root{
+            --border_r:20px;
+        }
+
+        .barra_progreso{
+            height: 40px;
+            width: 50%;
+            margin: 130px auto;
+            box-shadow: inset 6px 6px 12px #303030;
+            inset: -6px -6px 12px #404004;
+            background-color: #383838;
+            overflow: hidden;
+            border-radius:  var(--border_r);
+        }
+
+        .progreso{
+            height: 100%;
+            width: 0;
+            background-color: #3af763;
+            box-shadow: 0 0 10px #3af763,
+                     0 0 20px #3af763; 
+
+            display: block;
+            border-radius: var(--border_r);
+        }
+
+        #porcentaje{
+            border-radius: 50px;
+            
+    border: 5px solid #000;
+    padding: 5px;
+    box-shadow: 5px 5px 0px rgba(104, 104, 104, 0.651);
+    background-color: rgba(0, 139, 53, 0.986);
+
+
+            font-size: 2.5em;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-align: center;
+            transform: translateY(100px);
+            color: #3af763;
+        }
+p{
+    font-size: 30px;
+    color: rgb(11, 16, 255);
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.Images{
+    border-radius: 30px;
+    border: 10px solid rgb(61, 61, 61);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.527);
+}
